@@ -1,5 +1,5 @@
 # Leetcode
-Sharing my solutions on Leetcode problems
+Sharing my solutions to Leetcode problems
 <br>
 Author-Japit Singh
 
