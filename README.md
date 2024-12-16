@@ -1,6 +1,5 @@
 # Leetcode
-Sharing my solutions to Leetcode problems
+DSA ALGORITHMS
 <br>
 Author-Japit Singh
 
-This is my first time using git....
