@@ -1,0 +1,78 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "LinearSearch",
+            "projectName": "DSA_23d01f2d"
+        },
+        {
+            "type": "java",
+            "name": "linkedlist",
+            "request": "launch",
+            "mainClass": "linkedlist",
+            "projectName": "DSA_23d01f2d"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "array",
+            "projectName": "DSA_23d01f2d"
+        },
+        {
+            "type": "java",
+            "name": "ConsecutiveSum",
+            "request": "launch",
+            "mainClass": "ConsecutiveSum",
+            "projectName": "DSA_23d01f2d"
+        },
+        {
+            "type": "java",
+            "name": "ArrayExample",
+            "request": "launch",
+            "mainClass": "ArrayExample",
+            "projectName": "DSA_23d01f2d"
+        },
+        {
+            "type": "java",
+            "name": "PrimeFactorization",
+            "request": "launch",
+            "mainClass": "PrimeFactorization",
+            "projectName": "DSA_23d01f2d"
+        },
+        {
+            "type": "java",
+            "name": "ArrayOperations",
+            "request": "launch",
+            "mainClass": "ArrayOperations",
+            "projectName": "DSA_23d01f2d"
+        },
+        {
+            "type": "java",
+            "name": "ArraySum",
+            "request": "launch",
+            "mainClass": "ArraySum",
+            "projectName": "DSA_23d01f2d"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "DSA_23d01f2d"
+        },
+        {
+            "type": "java",
+            "name": "timeComplexity",
+            "request": "launch",
+            "mainClass": "timeComplexity",
+            "projectName": "DSA_23d01f2d"
+        }
+    ]
+}

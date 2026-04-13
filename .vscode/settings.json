@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "algorithm": "cpp",
+        "optional": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "stdio.h": "c",
+        "string_view": "c",
+        "initializer_list": "c"
+    },
+    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+}
