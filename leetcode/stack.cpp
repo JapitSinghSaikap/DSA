@@ -1,3 +1,4 @@
+
 // Implementation of stack using queue
 #include <bits/stdc++.h>
 
@@ -74,6 +75,55 @@ void stlStackDemo()
   cout << "STL stack top: " << s.top() << endl;
   s.pop();
   cout << "STL stack size: " << s.size() << endl;
+}
+
+// Delete middle element
+void deleteMiddle(stack<int> &s)
+{
+  int n = s.size();
+  int mid = n / 2;
+  vector<int> temp;
+  for (int i = 0; i < n; ++i)
+  {
+    int x = s.top();
+    s.pop();
+    if (i != mid)
+      temp.push_back(x);
+  }
+  for (int i = temp.size() - 1; i >= 0; --i)
+    s.push(temp[i]);
+}
+
+// String reversal using stack
+string reverseStr(const string &str)
+{
+  stack<char> s;
+  for (char c : str)
+    s.push(c);
+  string res;
+  while (!s.empty())
+  {
+    res += s.top();
+    s.pop();
+  }
+  return res;
+}
+}
+
+
+// String reversal using stack
+string reverseStr(const string &str)
+{
+  stack<char> s;
+  for (char c : str)
+    s.push(c);
+  string res;
+  while (!s.empty())
+  {
+    res += s.top();
+    s.pop();
+  }
+  return res;
 }
 
 // Min stack (get min in O(1))
